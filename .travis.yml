@@ -1,0 +1,7 @@
+sudo: false
+language: rust
+rust:
+- stable
+notifications:
+  email:
+    on_success: never
