@@ -1,7 +1,7 @@
 sudo: false
 language: rust
 rust:
-- stable
+- nightly
 notifications:
   email:
     on_success: never
