@@ -1,10 +1,12 @@
-[![Build Status](https://travis-ci.org/crypto-universe/algorithms.svg?branch=master)](https://travis-ci.org/crypto-universe/algorithms)
-[![Clippy Linting Result](https://clippy.bashy.io/github/crypto-universe/algorithms/master/badge.svg)](https://clippy.bashy.io/github/crypto-universe/algorithms/master/log)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
-
 # algorithms
 
+[![Build Status](https://travis-ci.org/crypto-universe/algorithms.svg?branch=master)](https://travis-ci.org/crypto-universe/algorithms)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://mit-license.org/)
+
 Just some algorithms, implemented for fun.
+
+- Knuth-Morris-Pratt string-searching algorithm
+- Three-way radix qsort with Dutch national flag splitting algorithm
 
 ## License
 

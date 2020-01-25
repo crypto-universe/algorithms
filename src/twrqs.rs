@@ -3,7 +3,7 @@ use std::cmp::Ordering::*;
 //Dutch national flag problem - best way to arrange items into 3 groups.
 //Complexity O(N)
 #[inline]
-fn dnf_partition<T>(mut array: &mut [&[T]], mid_val: &T, mut lo: usize, mut hi: usize, index: usize) -> (usize, usize)
+fn dnf_partition<T>(array: &mut [&[T]], mid_val: &T, mut lo: usize, mut hi: usize, index: usize) -> (usize, usize)
         where T: Ord {
     let mut j = lo;
     while j <= hi {
@@ -34,7 +34,7 @@ fn dnf_partition<T>(mut array: &mut [&[T]], mid_val: &T, mut lo: usize, mut hi: 
 
 // Three-way radix qsort with Dutch national flag splitting algorithm
 // Return number of iterations (recursive calls in naive implementation)
-pub fn sort<T>(mut a: &mut [&[T]]) -> (usize, usize) where T: Ord {
+pub fn sort<T>(a: &mut [&[T]]) -> (usize, usize) where T: Ord {
     let mut pivot: &T;
     let mut stack: Vec<(usize, usize, usize)> = Vec::new();
 

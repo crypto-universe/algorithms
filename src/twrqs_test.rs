@@ -1,18 +1,18 @@
+#[allow(unused_imports)] // only for twrqs
 use twrqs;
 use std::path::Path;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
-use test::Bencher;
 
 #[bench]
-fn bench_twrqs_1(benchmark: &mut Bencher) -> () {
+fn bench_twrqs_1(benchmark: &mut test::Bencher) {
     let input: Vec<String> = my_read_file("input_16_10000.txt");
     let input_u8 = input.iter().map(|x| x.as_str().as_bytes()).collect::<Vec<&[u8]>>();
     benchmark.iter(|| twrqs::sort(input_u8.clone().as_mut_slice()))
 }
 
 #[bench]
-fn bench_standard_1(benchmark: &mut Bencher) -> () {
+fn bench_standard_1(benchmark: &mut test::Bencher) {
     let input: Vec<String> = my_read_file("input_16_10000.txt");
     let input_u8 = input.iter().map(|x| x.as_str().as_bytes()).collect::<Vec<&[u8]>>();
     benchmark.iter(|| input_u8.clone().as_mut_slice().sort())
@@ -40,6 +40,7 @@ fn test_2() {
 }
 
 // Internal function to read file into vector.
+#[allow(dead_code)]
 fn my_read_file(file: &str) -> Vec<String> {
     let file_in_dir = "test_data/".to_string() + file;
     let path = Path::new(&file_in_dir);
