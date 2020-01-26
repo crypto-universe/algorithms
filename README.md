@@ -5,8 +5,9 @@
 
 Just some algorithms, implemented for fun.
 
-- Knuth-Morris-Pratt string-searching algorithm
-- Three-way radix qsort with Dutch national flag splitting algorithm
+- [kmp.rs](../master/src/kmp.rs) Knuth-Morris-Pratt string-searching algorithm
+- [sh_sub.rs](../master/src/sh_sub.rs) Find the shortest substring that contains all chars appeared in given string
+- [twrqs.rs](../master/src/twrqs.rs) Three-way radix qsort with Dutch national flag splitting algorithm
 
 ## License
 
