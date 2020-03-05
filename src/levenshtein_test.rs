@@ -1,6 +1,17 @@
 #[allow(unused_imports)]
 use levenshtein;
 
+/*
+// Core i5-7300U 2.60GHz:
+// test levenshtein_test::levenshtein_distance_1_bench_1 ... bench: 12,238,653,260 ns/iter (+/- 1,903,572,519)
+#[bench]
+fn levenshtein_distance_1_bench_1(benchmark: &mut test::Bencher) {
+    let input1: String = std::fs::read_to_string("test_data/2012usc09.htm").unwrap();
+    let input2: String = std::fs::read_to_string("test_data/2018usc09.htm").unwrap();
+    benchmark.iter(|| levenshtein::levenshtein_distance_1(&input1, &input2))
+}
+*/
+
 #[test]
 fn levenshtein_distance_1_test_1() {
     let result1 = levenshtein::levenshtein_distance_1("sitting", "kitten");

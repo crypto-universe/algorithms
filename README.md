@@ -7,7 +7,7 @@ Just some algorithms, implemented for fun. See unit tests to figure out how to u
 
 - [bellman_ford.rs](../master/src/bellman_ford.rs) Bellman-Ford algorithm searches minimal distances in graph that may contain negative weight edges
 - [kmp.rs](../master/src/kmp.rs) Knuth-Morris-Pratt string-searching algorithm
-- [levenshtein.rs](../master/src/levenshtein.rs) Levenshtein (edit) distance between 2 strings; TODO:benchmark
+- [levenshtein.rs](../master/src/levenshtein.rs) Levenshtein (edit) distance between 2 strings
 - [sh_sub.rs](../master/src/sh_sub.rs) Find the shortest substring that contains all chars appeared in given string
 - [twrqs.rs](../master/src/twrqs.rs) Three-way radix qsort with Dutch national flag splitting algorithm
 
@@ -23,3 +23,7 @@ cargo bench
 ## License
 
 See the [LICENSE](LICENSE.txt) file for license rights and limitations (MIT).
+
+## Test and benchmark data
+
+[United States Code annual historical archives](https://uscode.house.gov/download/annualhistoricalarchives/downloadxhtml.shtml)
