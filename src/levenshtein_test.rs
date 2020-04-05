@@ -33,7 +33,6 @@ fn levenshtein_distance_1_test_2() {
 #[test]
 fn levenshtein_distance_1_test_3() {
     let result1 = levenshtein::levenshtein_distance_1("interest", "industry");
-    dbg!(result1);
     assert!(result1 == 6);
 
     let result2 = levenshtein::levenshtein_distance_1("industry", "interest");
@@ -43,7 +42,6 @@ fn levenshtein_distance_1_test_3() {
 #[test]
 fn levenshtein_distance_1_test_4() {
     let result1 = levenshtein::levenshtein_distance_1("GUMBO", "GAMBOL");
-    dbg!(result1);
     assert!(result1 == 2);
 
     let result2 = levenshtein::levenshtein_distance_1("GAMBOL", "GUMBO");
