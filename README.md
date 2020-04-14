@@ -1,6 +1,7 @@
 # algorithms
 
 [![Build Status](https://travis-ci.org/crypto-universe/algorithms.svg?branch=master)](https://travis-ci.org/crypto-universe/algorithms)
+![Rust CI](https://github.com/crypto-universe/algorithms/workflows/Rust/badge.svg?branch=master)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://mit-license.org/)
 
 Just some algorithms, implemented for fun. See unit tests to figure out how to use these functions.
