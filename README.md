@@ -9,6 +9,7 @@ Just some algorithms, implemented for fun. See unit tests to figure out how to u
 - [kmp.rs](../master/src/kmp.rs) Knuth-Morris-Pratt string-searching algorithm
 - [levenshtein.rs](../master/src/levenshtein.rs) Levenshtein (edit) distance between 2 strings
 - [sh_sub.rs](../master/src/sh_sub.rs) Find the shortest substring that contains all chars appeared in given string
+- [topological_sorting.rs](../master/src/topological_sorting.rs) Kahn's algorithm for topological sorting.
 - [twrqs.rs](../master/src/twrqs.rs) Three-way radix qsort with Dutch national flag splitting algorithm
 
 ## How to run

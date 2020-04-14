@@ -12,3 +12,5 @@ pub mod bellman_ford;
 pub mod bellman_ford_test;
 pub mod levenshtein;
 pub mod levenshtein_test;
+pub mod topological_sorting;
+pub mod topological_sorting_test;
