@@ -6,6 +6,7 @@
 
 Just some algorithms, implemented for fun. See unit tests to figure out how to use these functions.
 
+- [all_combinations](../master/src/all_combinations.rs) Iterative and recursive way to get all possible combinations of slice elements. Benchmarks included.
 - [bellman_ford.rs](../master/src/bellman_ford.rs) Bellman-Ford algorithm searches minimal distances in graph that may contain negative weight edges
 - [kmp.rs](../master/src/kmp.rs) Knuth-Morris-Pratt string-searching algorithm
 - [levenshtein.rs](../master/src/levenshtein.rs) Levenshtein (edit) distance between 2 strings
@@ -16,7 +17,7 @@ Just some algorithms, implemented for fun. See unit tests to figure out how to u
 ## How to run
 
 ```bash
-# you need nightly toolchain to run tests
+# you need nightly toolchain to run benchmarks
 cargo clippy
 cargo test
 cargo bench

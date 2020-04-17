@@ -14,3 +14,5 @@ pub mod levenshtein;
 pub mod levenshtein_test;
 pub mod topological_sorting;
 pub mod topological_sorting_test;
+pub mod all_combinations;
+pub mod all_combinations_test;
